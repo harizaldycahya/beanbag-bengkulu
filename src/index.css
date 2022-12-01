@@ -128,8 +128,8 @@ p{
 }
 .hero1 img{
   width: 90%;
-  box-shadow: 1rem 1rem black;
-  border-radius: 1rem;
+  border: .3rem solid black;
+  box-shadow: .5rem .5rem black;
 }
 /* Hero End */
 
@@ -161,7 +161,7 @@ p{
 }
 .body-1 .card:hover{
   cursor: pointer;
-  color: white !important;
+  color: white;
   background-color: black;
 }
 .body-1 img{
