@@ -36,6 +36,9 @@ span{
 h1{
   font-size: 3rem;
 }
+h3{
+  font-size: 1.5rem;
+}
 p{
   font-size: 1rem;
 }
@@ -165,3 +168,39 @@ p{
   width: 100%;
 }
 /* Body End */
+
+/* Body Start */
+.body-2{
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  align-items: end;
+  
+}
+.body-2 img{
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+.body-2 .text{
+  padding: 1.5rem;
+}
+/* Body End */
+
+/* Footer Start */
+.footer-1{
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.footer-1 .links{
+  display: flex;
+  flex-direction: column;
+}
+.footer-1 img{
+  width: 5rem;
+}
+/* Footer End */

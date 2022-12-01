@@ -12,7 +12,9 @@ const Home = () => {
             <div class="space-10"></div>
             <div class="space-10"></div>
             <Body1></Body1>
+            <div class="space-10"></div>
             <Body2></Body2>
+            <div class="space-10"></div>
             <Footer></Footer>
             
         </div>
