@@ -1,5 +1,5 @@
-import square from '../assets/img/square.jpg'
-
+import square from '../assets/img/square.jpg';
+import {motion} from 'framer-motion';
 const Body1 = () => {
     return ( 
         <div className="container">
@@ -9,38 +9,36 @@ const Body1 = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa veritatis officia quisquam voluptatibus. Suscipit.</p>
             </div>
             <div className="cards">
-                <div className="card">
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
-                <div className="card">
+                </motion.div>
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
-                <div className="card">
+                </motion.div>
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
-            </div>
-            <div className="cards">
-                <div className="card">
+                </motion.div>
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
-                <div className="card">
+                </motion.div>
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
-                <div className="card">
+                </motion.div>
+                <motion.div whileHover={{rotateX:20}} className="card">
                     <img src={square} alt=""/>
                     <h3><span>Lorem ipsum dolor sit.</span></h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
-                </div>
+                </motion.div>
             </div>
         </section>
     </div>
