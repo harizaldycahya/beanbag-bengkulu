@@ -1,5 +1,6 @@
 import square from '../assets/img/square.jpg';
 import {Link} from 'react-router-dom';
+import wave_up from '../assets/img/wave (2).svg'
 const Footer = () => {
     return ( 
         <div className="container">
@@ -28,6 +29,7 @@ const Footer = () => {
         </section>
         <hr/>
         <p>&copy; Harizaldy Cahya Pratama</p>
+        <img className='background' src={wave_up} alt=""/>
     </div>
      );
 }

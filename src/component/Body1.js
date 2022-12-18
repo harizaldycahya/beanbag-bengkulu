@@ -1,5 +1,6 @@
 import square from '../assets/img/square.jpg';
 import {motion} from 'framer-motion';
+import blob4 from '../assets/img/blob (4).svg'
 const Body1 = () => {
     return ( 
         <div className="container">
@@ -40,6 +41,7 @@ const Body1 = () => {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
                 </motion.div>
             </div>
+            <img className='background' src={blob4} alt=""/> 
         </section>
     </div>
      );

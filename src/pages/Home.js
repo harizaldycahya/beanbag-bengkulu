@@ -7,13 +7,16 @@ import Footer from "../component/Footer";
 const Home = () => {
     return ( 
         <div className="container">
-            <div class="space-5"></div>
+            <div class="space-10"></div>
             <Hero></Hero>
+            <div class="space-10"></div>
             <div class="space-10"></div>
             <div class="space-10"></div>
             <Body1></Body1>
             <div class="space-10"></div>
+            <div class="space-10"></div>
             <Body2></Body2>
+            <div class="space-10"></div>
             <div class="space-10"></div>
             <Footer></Footer>
             
