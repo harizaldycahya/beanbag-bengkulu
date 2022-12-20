@@ -1,5 +1,4 @@
 import landscape from '../assets/img/landscape.jpg'
-import blob2 from '../assets/img/blob (2).svg'
 
 const Body2 = () => {
     return ( 
@@ -12,7 +11,6 @@ const Body2 = () => {
                 <h1>Lorem ipsum <span>dolor</span> sit amet.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa veritatis officia quisquam voluptatibus. Suscipit.</p>
             </div>
-            <img className='background' src={blob2} alt=""/> 
         </section>
     </div>
      );

@@ -20,6 +20,7 @@ function App() {
             <Contact></Contact>
           </Route>
         </Switch>
+        
       </div>
     </Router>
   );

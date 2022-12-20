@@ -7,7 +7,6 @@ import Footer from "../component/Footer";
 const Home = () => {
     return ( 
         <div className="container">
-            <div class="space-10"></div>
             <Hero></Hero>
             <div class="space-10"></div>
             <div class="space-10"></div>

@@ -1,6 +1,10 @@
-import square from '../assets/img/square.jpg';
+import square from '../assets/img/square.jpg'
+// import products1 from '../assets/img/header.jfif'
+// import products2 from '../assets/img/header.jfif'
+// import products3 from '../assets/img/header.jfif'
+// import products4 from '../assets/img/header.jfif'
+// import products5 from '../assets/img/header.jfif'
 import {motion} from 'framer-motion';
-import blob4 from '../assets/img/blob (4).svg'
 const Body1 = () => {
     return ( 
         <div className="container">
@@ -41,7 +45,6 @@ const Body1 = () => {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus!</p>
                 </motion.div>
             </div>
-            <img className='background' src={blob4} alt=""/> 
         </section>
     </div>
      );
