@@ -1,5 +1,6 @@
 import square from '../assets/img/square.jpg'
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'
+import {motion} from 'framer-motion'
 const Navbar = () => {
     return ( 
         <div className="container">
@@ -8,10 +9,10 @@ const Navbar = () => {
                     <img src={square} alt=""/>
                 </div>
                 <div className="links">
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
-                    <Link to="/instagram">Instagram</Link>
+                    <Link to="/"><motion.h3 whileHover={{y:-10}}>Home</motion.h3></Link>
+                    <Link to="/about"><motion.h3 whileHover={{y:-10}}>About</motion.h3></Link>
+                    <Link to="/contact"><motion.h3 whileHover={{y:-10}}>Contact</motion.h3></Link>
+                    <Link to="/instagram"><motion.h3 whileHover={{y:-10}}>Instagram</motion.h3></Link>
                 </div>
                 
             </section>

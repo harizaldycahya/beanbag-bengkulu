@@ -47,7 +47,7 @@ span{
   color: #7172F9;
 }
 h1{
-  font-size: 3rem;
+  font-size: 6rem;
 }
 h3{
   font-size: 1.5rem;
@@ -88,8 +88,27 @@ p{
   width: 100%;
   bottom: 0;
 }
-
-
+.cards-1 .circle_small{
+  position: absolute;
+  z-index: -1;
+  width: 6rem;
+  right:3rem;
+  top: 0;
+}
+.body-1 .circle_small{
+  position: absolute;
+  z-index: -1;
+  width: 6rem;
+  left:-3rem;
+  top: 0;
+}
+.body-2 .circle_small{
+  position: absolute;
+  z-index: -1;
+  width: 6rem;
+  left:-3rem;
+  top: 0;
+}
 /* Navbar Start */
 
 .navbar-1{
@@ -138,9 +157,9 @@ p{
   /* border: .5rem solid black; */
   
 }
-.hero1 h1{
-  font-size: 6rem;
-}
+/* .hero1 h1{
+  
+} */
 .hero1 button{
   display: grid;
   justify-self: start;
@@ -170,59 +189,149 @@ p{
 }
 /* Hero End */
 
-/* Body Start */
-.body-1{
+/* cards Start */
+.cards-1{
   width: 90vw;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1.5rem;
+  position: relative;
   
 }
-.body-1 .text{
+.cards-1 .circle{
+  position: absolute;
+  top:50%;
+  left: 0;
+  z-index: -1;
+  width: 80%;
+}
+.cards-1 h1{
+  font-size: 6rem;
+  position: relative;
+}
+.cards-1 .text{
   padding: 1.5rem;
 }
-.body-1 .cards{
+.cards-1 .cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4rem;
   padding: 1.5rem;
 }
-.body-1 .card{
+.cards-1 .card{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1.5rem;
   border: .3rem solid black;
   box-shadow: .5rem .5rem black;
+  background: white;
 }
-.body-1 .card:hover{
+.cards-1 .card:hover{
   cursor: pointer;
   color: white;
   background-color: black;
 }
-.body-1 img{
+.cards-1 img{
   width: 100%;
+}
+/* cards End */
+
+/* Body Start */
+.body-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  /* border: .5rem solid black; */
+  width: 90vw;
+  padding: 1.5rem;
+  position: relative;
+  justify-content: end;
+}
+
+.body-1 .image{
+  display: grid;
+  /* border: .5rem solid black; */
+  justify-items: center;
+  align-items: center;
+}
+.body-1 .image img{
+  margin-top: 5rem;
+  min-width: 100%;
+  border: .3rem solid black;
+  box-shadow: .5rem .5rem black;
+}
+.body-1 .text{
+  padding: 1.5rem;
+}
+.body-1 h1{
+  font-size: 6rem;
+  position: relative;
+}
+.body-1 button{
+  display: grid;
+  justify-self: start;
+  min-height: 2rem;
+  padding: 1rem;
+  background-color: black;
+  border: .2rem solid black;
+  color: white;
+  font-size: 1rem;
+}
+.body-1 button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 /* Body End */
 
 /* Body Start */
 .body-2{
-  width: 90vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+  /* border: .5rem solid black; */
+  width: 90vw;
   padding: 1.5rem;
-  align-items: end;
   position: relative;
+  justify-content: end;
 }
-.body-2 img{
-  width: 100%;
-  border-radius: 1.5rem;
-  padding: 1.5rem;
+.body-2 .image{
+  display: grid;
+  /* border: .5rem solid black; */
+  justify-items: center;
+  align-items: center;
+}
+.body-2 .image img{
+  margin-top: 5rem;
+  width: 90%;
+  /* min-width: 100%; */
+  border: .3rem solid black;
+  box-shadow: .5rem .5rem black;
 }
 .body-2 .text{
   padding: 1.5rem;
+  align-self: center;
+}
+.body-2 h1{
+  font-size: 6rem;
+  position: relative;
+}
+.body-2 button{
+  display: grid;
+  justify-self: start;
+  min-height: 2rem;
+  padding: 1rem;
+  background-color: black;
+  border: .2rem solid black;
+  color: white;
+  font-size: 1rem;
+}
+.body-2 button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 /* Body End */
 

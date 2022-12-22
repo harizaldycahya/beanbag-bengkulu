@@ -1,9 +1,12 @@
 import square from '../assets/img/square.jpg';
+import background from '../assets/img/footer.svg'
 import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return ( 
-        <div className="container">
+        <div className="container" style={{backgroundImage: `url(${background})`}}>
+            <div class="space-10"></div>
+            <div class="space-10"></div>
             <section className="footer-1">
                 <div className="image">
                     <img src={square} alt=""/>
