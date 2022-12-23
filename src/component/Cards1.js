@@ -38,7 +38,7 @@ const Cards1 = () => {
     useEffect(() => {
         if(inView){
             animate.start({
-                x:0,
+                x:'-10rem',
                 transition: {
                     type: 'spring', 
                     duration: 2,
@@ -73,10 +73,10 @@ const Cards1 = () => {
         <div className="container">
             <section ref={ref} className="cards-1">
                 <div className="text">
-                    <h1>Meet Our <span>Best</span> Seller.
+                    <h1>Produk <span>Terlaris</span> Kami.
                         <motion.img animate={animate} className='circle_small' src={circle_small} alt=""/> 
                     </h1>
-                    <h3>There is virtue in work and there is virtue in rest. Use both and overlook neither.</h3>
+                    <h3>Semua stock ready, bisa langsung di bawa pulang. Yuk buruannn</h3>
                 </div>
                 <div className="cards">
                     <motion.div whileHover={{rotateX:20}} className="card">

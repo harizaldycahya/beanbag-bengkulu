@@ -14,7 +14,7 @@ const Hero = () => {
                     <span><hr /></span>
                     <h3>Recognizing the need is the primary condition for design.</h3>
                     <div class="space-2"></div>
-                    <motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button>
+                    <a href="https://www.instagram.com/beanbag_bengkulu/"><motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button></a>
                 </div>
                 <div className="image">
                     <img src={header} alt=""/>

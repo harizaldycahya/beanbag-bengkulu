@@ -1,10 +1,10 @@
 import landscape from '../assets/img/home1.jfif'
 import circle_small from '../assets/img/circle.png'
-
-import {motion} from 'framer-motion';
+import {Link} from 'react-router-dom'
+import {motion} from 'framer-motion'
 import {useInView} from 'react-intersection-observer'
-import { useEffect } from 'react';
-import { useAnimation } from 'framer-motion';
+import { useEffect } from 'react'
+import { useAnimation } from 'framer-motion'
 
 const Body2 = () => {
     // Scroll Animation
@@ -37,13 +37,15 @@ const Body2 = () => {
                     <img src={landscape} alt=""/>
                 </div>
                 <div className="text">
-                    <h1>Lorem <span>ipsum</span>.
+                    <h1>JUAL <span>DAN</span> SEWA Beanbag .
                         <motion.img animate={animate} className='circle_small' src={circle_small} alt=""/>
                     </h1>
                     <span><hr /></span>
-                    <h3>Recognizing the need is the primary condition for design.</h3>
+                    <h3>Produsen pertama di Bengkulu, Termurah se-Bengkulu</h3>
                     <div class="space-2"></div>
-                    <motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button>
+                    <Link to="/about">
+                        <motion.button whileHover={{rotateX:30}}>About Us</motion.button>
+                    </Link>
                 </div>
             </section>
         </div>

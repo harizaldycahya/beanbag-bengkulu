@@ -36,13 +36,15 @@ const Body1 = () => {
         <div className="container">
             <section ref={ref} className="body-1">
                 <div className="text">
-                        <h1>Lorem <span>Ipsum</span>
+                        <h1>Kenapa <span>Beanbag</span> ?
                             <motion.img animate={animate}  className='circle_small' src={circle_small} alt=""/>
                         </h1>
                         <span><hr /></span>
-                        <h3>Recognizing the need is the primary condition for design.</h3>
+                        <h3>Beanbag cocok sekali digunakan menjadi kursi santai di cafe/resto anda. Karena dapat membuat suasana menjadi lebih berwarna dan lebih asik.</h3>
                         <div class="space-2"></div>
-                        <motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button>
+                        <a href="https://wa.me/628977554188">
+                            <motion.button whileHover={{rotateX:30}}>Chat Via Whatsapp</motion.button>
+                        </a>
                     </div>
                 <div className="image">
                     <img src={landscape} alt=""/>

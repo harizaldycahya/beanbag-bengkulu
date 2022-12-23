@@ -1,7 +1,7 @@
-import square from '../assets/img/square.jpg';
+import square from '../assets/img/logo.png';
 import background from '../assets/img/footer.svg'
 import {Link} from 'react-router-dom';
-
+import{motion} from 'framer-motion';
 const Footer = () => {
     return ( 
         <div className="container" style={{backgroundImage: `url(${background})`}}>
@@ -12,26 +12,21 @@ const Footer = () => {
                     <img src={square} alt=""/>
                 </div>
                 <div className="links">
-                <h3>Lorem.</h3>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
+                    <h3>Menus.</h3>
+                    <Link to="/"><motion.p whileHover={{x:-10}}>Home.</motion.p></Link>
+                    <Link to="/about"><motion.p whileHover={{x:-10}}>About.</motion.p></Link>
+                    <Link to="/contact"><motion.p whileHover={{x:-10}}>Contact.</motion.p></Link>
                 </div>
                 <div className="links">
-                <h3>Lorem.</h3>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
-                </div>
-                <div className="links">
-                <h3>Lorem.</h3>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
-                    <Link href="">Lorem.</Link>
+                    <h3>Social Media.</h3>
+                    <a href="https://www.instagram.com/beanbag_bengkulu/"><motion.p whileHover={{x:-10}}>Instagram.</motion.p></a>
+                    <Link href=""><motion.p whileHover={{x:-10}}>Facebook.</motion.p></Link>
+                    <Link href=""><motion.p whileHover={{x:-10}}>Twitter.</motion.p></Link>
                 </div>
             </section>
-            <hr/>
-            <p>&copy; Harizaldy Cahya Pratama</p>
+            <b className='copyright'>
+                <p>&copy; Beanbag Bengkulu </p>
+            </b>
             
         </div>
      );
