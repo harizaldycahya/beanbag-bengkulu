@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Link to="/"><motion.h3 whileHover={{y:-10}}>Home</motion.h3></Link>
                     <Link to="/about"><motion.h3 whileHover={{y:-10}}>About</motion.h3></Link>
                     <Link to="/contact"><motion.h3 whileHover={{y:-10}}>Contact</motion.h3></Link>
-                    <a href="https://www.instagram.com/beanbag_bengkulu/"><motion.h3 whileHover={{y:-10}}>Instagram</motion.h3></a>
+                    <a href="https://www.instagram.com/beanbag_bengkulu/" target="_blank"><motion.h3 whileHover={{y:-10}}>Instagram</motion.h3></a>
                 </div>
                 
             </section>

@@ -33,7 +33,7 @@ const Contact = () => {
                         Alamat : Jl. KS. Tubun No.37 <br />
                     </h3>
                     <div class="space-2"></div>
-                    <a href="https://wa.me/628977554188">
+                    <a href="https://wa.me/628977554188" target="_blank">
                         <motion.button whileHover={{rotateX:30}}>Chat Via Whatsapp</motion.button>
                     </a>
                 </div>

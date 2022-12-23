@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
                 <div className="links">
                     <h3>Social Media.</h3>
-                    <a href="https://www.instagram.com/beanbag_bengkulu/"><motion.p whileHover={{x:-10}}>Instagram.</motion.p></a>
+                    <a href="https://www.instagram.com/beanbag_bengkulu/" target="_blank"><motion.p whileHover={{x:-10}}>Instagram.</motion.p></a>
                     <Link href=""><motion.p whileHover={{x:-10}}>Facebook.</motion.p></Link>
                     <Link href=""><motion.p whileHover={{x:-10}}>Twitter.</motion.p></Link>
                 </div>

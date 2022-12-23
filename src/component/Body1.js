@@ -42,7 +42,7 @@ const Body1 = () => {
                         <span><hr /></span>
                         <h3>Beanbag cocok sekali digunakan menjadi kursi santai di cafe/resto anda. Karena dapat membuat suasana menjadi lebih berwarna dan lebih asik.</h3>
                         <div class="space-2"></div>
-                        <a href="https://wa.me/628977554188">
+                        <a href="https://wa.me/628977554188" target="_blank">
                             <motion.button whileHover={{rotateX:30}}>Chat Via Whatsapp</motion.button>
                         </a>
                     </div>

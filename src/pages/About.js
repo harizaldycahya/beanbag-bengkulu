@@ -27,7 +27,7 @@ const About = () => {
                     <span><hr /></span>
                     <h3>Beanbag bengkulu adalah toko yang menjual berbagai macam beanbag dan home decor seperti macrame, rak dinding, bunga, rumput sintetis dan meja yg cocok utk pelengkap beanbag di rumah anda.</h3>
                     <div class="space-2"></div>
-                    <a href="https://www.instagram.com/beanbag_bengkulu/"><motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button></a>
+                    <a href="https://www.instagram.com/beanbag_bengkulu/" target="_blank"><motion.button whileHover={{rotateX:30}}>Visit Our Instagram</motion.button></a>
                     
                 </div>
             </section>
